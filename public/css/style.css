@@ -1,0 +1,99 @@
+.error_msg_div{
+	display: none;
+}
+
+.panel.panel-info{
+	background-color: #ccc;
+}
+
+.pagination{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.modal.fade{
+	opacity: 1 !important;
+}
+
+.tr_raw{
+	cursor: pointer;
+}
+
+/* side navigation*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: #515151;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color:#fff !important;
+    /*padding-top: 60px;*/
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #fff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.sidenav h5{
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+}
+
+.sidenav .side_content_div{
+	padding-left: 25px; 
+}
+
+.sidenav .side_content_div span{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.sidenav .side_content_div .side_inner_content_div{
+	margin-top: 60px;
+}
+
+.sidenav .side_content_div .side_inner_content_div p{
+	line-height: 10px;
+	font-size: 14px; 
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 18px;}
+}
+/* side navigation*/
+
+@media (min-width: 768px){
+	.modal-dialog {
+	    margin: 150px auto !important;
+	}
+}
